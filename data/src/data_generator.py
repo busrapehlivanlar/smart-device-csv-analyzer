@@ -14,7 +14,7 @@ def generate_device_data(filename, num_records=50):
 
             writer.writerow([device, temperature, energy])
 if __name__ == "__main__":
-    generate_device_data("veri/device_data.csv")
+    generate_device_data("data/device_data.csv")
 
 
 
